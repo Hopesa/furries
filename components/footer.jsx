@@ -12,17 +12,20 @@ const footer = () => {
           <div className="flex flex-col items-center justify-between space-y-2 py-8 sm:flex-row sm:space-y-0">
             <span className="dark:text-jacarta-400 text-sm">
               <span>© {new Date().getFullYear()} Indonesia Furs — Managed by</span>
-                <a className="hover:text-accent dark:hover:text-white">
-                  {" "}
-                  Hopesa Camaraski
-                </a>
+                <Link href={"https://hopesa.me"}>
+                  <a className="hover:text-accent dark:hover:text-white">
+                    {" "}
+                    Hopesa Camaraski
+                  </a>
+                </Link>
+                
             </span>
 
             <ul className="dark:text-jacarta-400 flex flex-wrap space-x-4 text-sm">
               <li>
-                <Link href="#">
+                <Link href="/tarms">
                   <a className="hover:text-accent dark:hover:text-white">
-                    Terms and conditions
+                    Rules & Code of Conduct
                   </a>
                 </Link>
               </li>

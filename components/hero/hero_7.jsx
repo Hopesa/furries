@@ -51,7 +51,7 @@ const Hero_6 = () => {
                   className="inline-block rounded-2.5xl"
                 />
 
-                <div className="absolute bottom-0 -right-[5%] inline-block animate-fly rounded-2lg bg-white p-8 shadow-2xl sm:bottom-28 sm:right-[5%] lg:-right-[17%]">
+                {/* <div className="absolute bottom-0 -right-[5%] inline-block animate-fly rounded-2lg bg-white p-8 shadow-2xl sm:bottom-28 sm:right-[5%] lg:-right-[17%]">
                   <div className="text-left">
                     <span className="block font-display text-3xl text-[#737EF2]">
                       +1k
@@ -60,7 +60,7 @@ const Hero_6 = () => {
                       Community Members
                     </span>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

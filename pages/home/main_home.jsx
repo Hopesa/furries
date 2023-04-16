@@ -10,7 +10,7 @@ import Faq from "../../components/faq/faq";
 const Main_Home = () => {
   return (
     <>
-      <Meta title="Home Main" />
+      <Meta title="Home | " />
       <Hero_7 />
       {/* <Partners /> This is to be filled by community affiliated under Furries.id umbrella*/}
       <Intro />

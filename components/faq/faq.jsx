@@ -1,5 +1,5 @@
 import FaqAccordion from "./accoedion";
-
+import Image from "next/image";
 const Faq = () => {
   return (
     <div>
@@ -26,29 +26,27 @@ const Faq = () => {
             </div>
             <div className="lg:w-[55%]">
               <div className="mt-12 md:flex md:space-x-8 lg:justify-end">
-                <div className="relative mb-12 max-w-[13.125rem] self-end rounded-2.5xl bg-green p-9 shadow-2xl">
+                <div className="relative mb-12 max-w-[13.125rem] self-end p-8">
                   <img
                     src="/images/patterns/pattern_circle_1.png"
-                    className="absolute -top-10 -left-8 -z-10 animate-fly dark:z-0 dark:opacity-10"
+                    className="absolute -top-10 -left-21 -z-10 animate-fly dark:z-0 dark:opacity-10"
                     alt=""
                   />
-                  {/* <div>
-                    <span className="mb-4 block font-display text-base text-white">
-                      Individual Investors
-                    </span>
-                    <span className="mb-4 block font-display text-4xl text-white">
-                      7,000+
-                    </span>
-                    <span className="block text-base text-white">
-                      Sed do eiusmod tempor.
-                    </span>
-                  </div> */}
                 </div>
-                <img
+                 <div className="dark:hidden">
+                 <img
                   src="/images/talks.png"
                   className="mb-8 inline-block rounded-2.5xl"
                   alt=""
                 />
+              </div>
+              <div className="hidden dark:block">
+              <img
+                  src="/images/talks_white.png"
+                  className="mb-8 inline-block rounded-2.5xl"
+                  alt=""
+                />
+              </div>
               </div>
               <div className="relative">
                 <img
@@ -56,21 +54,6 @@ const Faq = () => {
                   className="absolute -bottom-8 right-12 animate-fly dark:opacity-10"
                   alt=""
                 />
-                <div className="relative mx-auto max-w-xs self-start rounded-2.5xl bg-blue p-8 shadow-2xl">
-                  
-
-                  {/* <div className="text-left">
-                    <span className="mb-4 block font-display text-base text-white">
-                      Invested to date
-                    </span>
-                    <span className="mb-4 block font-display text-4xl text-white">
-                      $3.7B
-                    </span>
-                    <span className="block text-base text-white">
-                      Sed do eiusmod tempor.
-                    </span>
-                  </div> */}
-                </div>
               </div>
             </div>
           </div>
